@@ -1,9 +1,5 @@
 # Using Spark and Scala on the High Performance Computing (HPC) systems at Sheffield
 
-## Presentation
-
-The presentation given during the session is at [https://mikecroucher.github.io/Intro_to_HPC/#/](https://mikecroucher.github.io/Intro_to_HPC/#/)
-
 ## Description of Sheffield's HPC Systems
 
 The University of Sheffield has two HPC systems:
@@ -338,8 +334,8 @@ Everyone who is part of the MSc in Data Analytics has access to our [premium que
 If you need to request a lot of memory for your job - for example 250 Gigabytes per core - add the following lines to your job submission script:
 
 ```
-# Tell the sysytem to make use of the project containing the big memory nodes
-#$ -P rse
+# Tell the system to make use of the project containing the big memory nodes
+#$ -P rse-com6012
 # Ask for 250 Gigabytes per core
 #$ -l rmem=250G
 ```
